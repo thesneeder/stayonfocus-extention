@@ -1,0 +1,18 @@
+{
+    "manifest_version":3,
+    "version":"1.0",
+    "name":"stayonfocus",
+    "description": "A plain text description",
+    "content_scripts":[
+     {
+      "matches":["<all_urls>"],
+      "js":["main.js"]
+     }
+    ],
+    "web_accessible_resources": [
+        {
+          "resources": ["983048159724965950.webp"],
+          "matches": ["<all_urls>"]
+        }
+    ]
+}
